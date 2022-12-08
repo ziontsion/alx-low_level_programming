@@ -4,7 +4,7 @@
  *  * main - prints to string
  *   * Description: Prints "and that piece of art is useful.." without puts
  *    * Return: 1
- **/
+ */
 
 int main(void)
 {
@@ -16,11 +16,9 @@ int main(void)
 
 	__asm__ ("syscall"
 	: "=a" (ret)
-	: "=a" (syscall),
+	: "a" (syscall),
 	"D" (fd),
 	"S" (s),
 	"d" (l));
 	return (1);
 }
-
-
