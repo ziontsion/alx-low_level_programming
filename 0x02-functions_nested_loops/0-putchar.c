@@ -8,7 +8,14 @@
 
 int main(void)
 {
-	puts("_putchar \n");
+	char listof[] = "_putchar";
 
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(listof[c]);
+	}
+	_putchar('\n');
 return (0);
 }
