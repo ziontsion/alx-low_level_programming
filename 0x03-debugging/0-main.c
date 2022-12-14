@@ -10,10 +10,10 @@
 
 int main(void)
 {
-	int y;
+	int i;
 
-	y = 0;
-	positive_or_negative(y);
+	i = 0;
+	positive_or_negative(i);
 
 	return (0);
 }
