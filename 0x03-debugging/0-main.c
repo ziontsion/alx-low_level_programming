@@ -13,7 +13,7 @@ int main(void)
 	int y;
 
 	y = 0;
-	positive_or_negative(i);
+	positive_or_negative(y);
 
 	return (0);
 }
