@@ -5,7 +5,7 @@ Project about:
 * Basic usage of ar, ranlib, nm
 
 **TASK 0**
-Create the static library libholberton.a containing all the functions listed below:int _putchar(char c);
+Create the static library libmy.a containing all the functions listed below:int _putchar(char c);
 * int _islower(int c);
 * int _isalpha(int c);
 * int _abs(int n);
@@ -27,19 +27,8 @@ Create the static library libholberton.a containing all the functions listed bel
 * char *_strstr(char *haystack, char *needle);
 
 If you haven’t coded all of the above functions create empty ones with the right prototype.
-Don’t forget to push your holberton.h file to your repository. It should at least contain all the prototypes of the above functions.
+Don’t forget to push your main.h file to your repository. It should at least contain all the prototypes of the above functions.
 
 **TASK 1**
 Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
 
-**TASK 2**
-Write a blog post on C static libraries. It should cover:
-* Why use libraries
-* How they work
-* How to create them
-* How to use them
-Your posts should have examples and at least one picture, at the top. Publish your blog post on Medium or LinkedIn, and share it at least on Twitter and LinkedIn.
-
-When done, please add all urls below (blog post, tweet, etc.)
-
-Please, remember that these blogs must be written in English to further your technical ability in a variety of settings
